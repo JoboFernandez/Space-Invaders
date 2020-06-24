@@ -1,0 +1,40 @@
+-----------------------------------------------------main.py--------------------------------------------------
+###  FIXES  ###
+
+class GameState
+[characterselectscene]
+	change btncstomenu and btnlaunch glow color to (182, 252, 116)
+
+[battlescene]
+	change mouse pointer
+	fuse player (class SpaceShip) follow and detect_collision methods **efficient use of loops; more organized
+	fuse bullets (class Bullet) move, detect_collision, and bring_to_ship methods **efficient use of loops; more organized
+	include energy_gauge check and notification in update method
+	fuse player.weapon (class Weapon) move, detect_collision, and detonate/explode methods **efficient use of loops; more organized
+	create methods to handle individual game state (game over, on play, level completed)
+	include a draw method in all classes to be drawn
+
+###  NEW FEATURES  ###
+
+class GameState
+[mainscene]
+	instruction manual
+	story mode
+
+--------------------------------------------------SpaceUnits.py--------------------------------------------------
+###  FIXES  ###
+
+class Asteroids 
+[__init__]
+	change xvel and yvel increments to linear instead of cumulative percentage
+
+class Drone
+	display hp bar
+
+class Drone.bullet
+[__init__]
+	change vel increment to linear instead of cumulative percentage
+
+###  NEW FEATURES  ###
+
+[new class for enemies]
