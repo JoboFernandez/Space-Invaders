@@ -13,6 +13,4 @@ imgs folder = contains images used in both python files;
 musics folder = contains musics used in both python files;
 Version_improvement_list.txt = list of possible game improvements;
 
-SOME PROBLEMS:
-Error when compiled to exe with pyinstaller;
 Needs more beta-testing;
