@@ -1,16 +1,18 @@
 # Space-Invaders
 
-TO DOWNLOAD:
-Click on Clone >> Download zip
+### Description:
 
-TO OPEN THE GAME:
-Unzip the downloaded folder >> unzip imgs.zip and musics.zip >> run main.py
+A game modified from the classic arcade space invaders.
 
-FILE DESCRIPTIONS:
-main.py = main program;
-SpaceUnits.py = classes used in main.py;
-imgs folder = contains images used in both python files;
-musics folder = contains musics used in both python files;
-Version_improvement_list.txt = list of possible game improvements;
+Features include:
+- Menu system
+- Ship selection
+- Weapon selection
+- Round/Level system
+- Enemy objects of varying behaviors
 
-Needs more beta-testing;
+### Packages:
+- Pygame
+
+### Recommendations:
+- Check Version_improvement_list.txt
